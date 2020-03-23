@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 直接从application.properties中读取
  * @author zycstart
  * @create 2020-03-23 19:07
  */
