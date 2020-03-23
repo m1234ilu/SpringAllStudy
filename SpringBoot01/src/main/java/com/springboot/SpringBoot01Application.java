@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class SpringBoot01Application {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot01Application.class,args);
+        SpringApplication.run(SpringBoot01Application.class, args);
     }
 
-    @RequestMapping("/")
-    public String index(){
-        return "hello spring boot!";
-    }
 }
